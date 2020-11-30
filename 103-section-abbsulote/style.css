@@ -1,0 +1,117 @@
+
+body{
+    padding: 0;
+    margin: 0;
+    font-family: Montserrat,Philosopher,Roboto;
+    
+}
+
+.newslatter-bg{
+    background-image: url(img/top-10-chain-restaurants-usa-2019-1024x600.jpg);
+}
+
+/*========================   Nav manu ==================*/
+
+.section-padding {
+  padding: 80px 0;
+}
+.newslatter-bg h2 {
+  text-transform: uppercase;
+}
+.newslatter-bg {
+  position: relative;
+  z-index: 1;
+  color: #fff;
+  text-align: center;
+  background-size: cover;
+  background-position: center;
+  background-color: #ddd;
+  padding-bottom: 180px;
+}
+.newslatter-bg::after {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  background: #000;
+  content: "";
+  z-index: -1;
+  opacity: .5;
+}
+.newslatter-bg h2 {
+  font-size: 28px;
+  font-weight: 900;
+  margin-bottom: 50px;
+}
+.newslatter-from input[type="emial"] {
+  padding: 12px 20px;
+  opacity: .6;
+  background: #333;
+  border: 1px solid #8e8582;
+  width: 75%;
+  border-radius: 50px;
+}
+.newslatter-from input[type="submit"] {
+  padding: 13px 30px;
+  background: #34b79d;
+  border: navajowhite;
+  border-radius: 50px;
+  color: #fff;
+  width: 23%;
+}
+.newslatter-from from {
+  margin-bottom: 10px;
+  display: block;
+}
+.newslater-text {
+  font-style: italic;
+}
+.border-boxces {
+  overflow: hidden;
+  border-right: 1px solid#ededed;
+  margin-top: -160px;
+  position: relative;
+  z-index: 9;
+  background: #fff;
+}
+.single-boder-box {
+  float: left;
+  width: 50%;
+  border-left: 1px solid #ededed;
+  border-bottom: 1px solid#ededed;
+  border-top: 1px solid #ededed;
+  text-align: center;
+  padding: 50px 80px;
+  min-height: 336px;
+}
+.single-boder-box h4 {
+  text-transform: uppercase;
+  font-size: 20px;
+  margin-bottom: 25px;
+}
+.single-testemonial-box {
+  font-style: italic;
+  line-height: 1.6;
+}
+.authorname {
+  color: #000;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-top: 20px;
+  font-style: normal;
+}
+.box-btn {
+  display: inline-block;
+  background: #000;
+  color: #fff;
+  padding: 8px 27px;
+  border-radius: 50px;
+  margin-top: 8px;
+}
+
+
+
+
+
+
